@@ -41,6 +41,7 @@ export class ListacryptosComponent implements OnInit {
         "precio": 90.86,
         "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LTC-400.png/2048px-LTC-400.png",
         "industria": "Medium of Exchange",
+        "plataforma": "Bitcoin Ecosystem",
         "marketcap": 6631340428
 
 
@@ -86,11 +87,11 @@ export class ListacryptosComponent implements OnInit {
     {
         "id": 9,
         "name": "Stellar",
-        "precio": 0.5,
+        "precio": 0.08807,
         "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Stellar_Symbol.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 30000000
+        "industria": "Medium of Exchange",
+        "plataforma": "Bitcoin Ecosystem",
+        "marketcap": 2360222062
     },
     {
         "id": 10,
