@@ -29,11 +29,11 @@ export class ListacryptosComponent implements OnInit {
     {
         "id": 3,
         "name": "Shiba Inu SHIB",
-        "precio": 1.5,
+        "precio": 0.000008902,
         "logo_url": "https://w7.pngwing.com/pngs/929/384/png-transparent-shib-coin-shib-coin-logo-shiba-token-thumbnail.png",
         "industria": "Meme",
         "plataforma": "Ethereum Ecosystem",
-        "marketcap": 200000000
+        "marketcap": 5246151673
     },
     {
         "id": 4,
@@ -70,17 +70,18 @@ export class ListacryptosComponent implements OnInit {
         "precio": 5.39,
         "logo_url": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
         "industria": "Web3",
-        "plataforma": "Binance Chain",
+        "plataforma": "Polkadot Ecosystem",
         "marketcap": 6391019844
     },
     {
         "id": 8,
         "name": "Chainlink",
-        "precio": 30,
+        "precio": 6.53,
         "logo_url": "https://cryptologos.cc/logos/chainlink-link-logo.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 40000000
+        "industria": "Web3",
+        "plataforma": "Polkadot Ecosystem",
+        "marketcap": 3374910269
+
     },
     {
         "id": 9,
