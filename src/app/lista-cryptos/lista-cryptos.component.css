@@ -1,0 +1,60 @@
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin: 15px;
+  background-color: black;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Estilos para el mensaje de no coincidencias */
+.no-coincidencias {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.alert-custom {
+  background-color: #ffc107; /* Color de fondo personalizado */
+  color: #fff; /* Color de texto personalizado */
+}
+

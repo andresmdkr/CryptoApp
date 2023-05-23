@@ -1,0 +1,46 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos personalizados para el navbar */
+.navbar {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Cambiar color al pasar el mouse */
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.text{
+  color: white !important;
+}
+
+.footer {
+  background-color: #BFFF00;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
