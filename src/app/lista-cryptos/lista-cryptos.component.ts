@@ -38,11 +38,12 @@ export class ListacryptosComponent implements OnInit {
     {
         "id": 4,
         "name": "Litecoin",
-        "precio": 150,
+        "precio": 90.86,
         "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LTC-400.png/2048px-LTC-400.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 100000000
+        "industria": "Medium of Exchange",
+        "marketcap": 6631340428
+
+
     },
     {
         "id": 5,
@@ -62,18 +63,15 @@ export class ListacryptosComponent implements OnInit {
         "plataforma": "Binance Chain",
         "marketcap": 5461071902
 
-
-
-
     },
     {
         "id": 7,
         "name": "Polkadot",
-        "precio": 40,
+        "precio": 5.39,
         "logo_url": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 60000000
+        "industria": "Web3",
+        "plataforma": "Binance Chain",
+        "marketcap": 6391019844
     },
     {
         "id": 8,
@@ -99,7 +97,7 @@ export class ListacryptosComponent implements OnInit {
         "precio": 0.07274,
         "logo_url": "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
         "industria": "Meme",
-        "plataforma": "BNB Chain",
+        "plataforma": "Binance Chain",
         "marketcap":10144381700
 
 
