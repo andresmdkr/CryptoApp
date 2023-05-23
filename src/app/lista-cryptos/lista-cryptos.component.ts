@@ -12,26 +12,27 @@ export class ListacryptosComponent implements OnInit {
         "name": "Bitcoin",
         "precio": 27181.51,
         "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/800px-Bitcoin.svg.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 1000000000
+        "industria": "Store Of Value",
+        "plataforma": "Bitcoin Ecosystem",
+        "marketcap": 526571946234
+
     },
     {
         "id": 2,
         "name": "Ethereum",
-        "precio": 2500,
+        "precio": 1850.11,
         "logo_url": "https://w7.pngwing.com/pngs/268/1013/png-transparent-ethereum-eth-hd-logo-thumbnail.png",
         "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 500000000
+        "plataforma": "Ethereum Ecosystem",
+        "marketcap": 222457022727
     },
     {
         "id": 3,
-        "name": "Ripple",
+        "name": "Shiba Inu SHIB",
         "precio": 1.5,
-        "logo_url": "https://w7.pngwing.com/pngs/996/864/png-transparent-coin-ripple-xrp-crypto-currency-and-coin-icon.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
+        "logo_url": "https://w7.pngwing.com/pngs/929/384/png-transparent-shib-coin-shib-coin-logo-shiba-token-thumbnail.png",
+        "industria": "Meme",
+        "plataforma": "Ethereum Ecosystem",
         "marketcap": 200000000
     },
     {
@@ -45,12 +46,12 @@ export class ListacryptosComponent implements OnInit {
     },
     {
         "id": 5,
-        "name": "Cardano",
-        "precio": 2.0,
-        "logo_url": "https://cdn4.iconfinder.com/data/icons/crypto-currency-and-coin-2/256/cardano_ada-512.png",
+        "name": "Dai DAI",
+        "precio": 0.9997,
+        "logo_url": "https://s2.coinmarketcap.com/static/img/coins/200x200/4943.png",
         "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 150000000
+        "plataforma": "Ethereum Ecosystem",
+        "marketcap": 4843138694
     },
     {
         "id": 6,
