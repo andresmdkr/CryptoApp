@@ -1,56 +1,52 @@
-  <div class="container pt-4">
+<div class="container pt-4">
   <h2>Cryptos Dashboard</h2>
+
+  <!-- Filtros -->
   <div class="row">
-    <div class="col">
-      <div class="form-group">
-        <label for="filtroprecio">Filtro:</label>
-        <select class="form-control" name="filtroprecio" [(ngModel)]="filtroprecio">
-          <option value="">Todos</option>
-          <option value="1972">1972</option>
-            <option value="1994">1994</option>
-            <option value="1999">1999</option>
-            <option value="2008">2008</option>
-            <option value="2010">2010</option>
-            <option value="2011">2011</option>
-            <option value="2014">2014</option>
-            <option value="2016">2016</option>
-            <option value="2020">2020</option>
-            <option value="2022">2022</option>
-            <option value="2023">2023</option>
-        </select>
-        <button class="btn btn-dark mt-2" (click)="aplicarFiltro()">Aplicar</button>
-      </div>
+    <div class="col-md-6">
+      <label for="plataforma">Plataforma:</label>
+      <select id="plataforma" class="form-select" [(ngModel)]="filtropPlataforma">
+        <option value="">Todos</option>
+        <option value="Bitcoin">Bitcoin</option>
+        <option value="Ethereum">Ethereum</option>
+        <!-- Agrega las opciones para las demás criptomonedas -->
+      </select>
+    </div>
+
+    <div class="col-md-6">
+      <label for="industria">Industria:</label>
+      <select id="industria" class="form-select" [(ngModel)]="filtropIndustria">
+        <option value="">Todas</option>
+        <option value="Tecnología">Tecnología</option>
+        <option value="Finanzas">Finanzas</option>
+        <!-- Agrega las opciones para las demás industrias -->
+      </select>
     </div>
   </div>
 
-<!-- validacion -->
-   <div class="row justify-content-center pt-4">
-    <div *ngIf="cryptosFiltradas.length === 0" class="col-12 text-center">
-      <div class="alert alert-custom animated fadeIn" role="alert">
-        <p class="mb-0">No se encontraron coincidencias.</p>
-      </div>
-    </div>
-<!--  -->
+  <button class="btn btn-dark mt-3 mb-3 " (click)="aplicarFiltro()">Aplicar</button>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Name</th>
-      <th scope="col">Precio (USD)</th>
-      <th scope="col">Market Cap</th>
-    </tr>
-  </thead>
-    <tbody class="col-12" *ngFor="let crypto of cryptosFiltradas">
-    <tr>
-      <th scope="row">{{crypto.id}}</th>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Precio (USD)</th>
+        <th scope="col">Market Cap</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let crypto of cryptosFiltradas">
+        <th scope="row">{{crypto.id}}</th>
+        <td><img src="{{crypto.logo_url}}" width="30" height="30"> {{crypto.name}}</td>
+        <td>{{crypto.precio}}</td>
+        <td>{{crypto.marketcap}}</td>
+      </tr>
+    </tbody>
+  </table>
 
-      <td><img src="{{crypto.logo_url}}">{{crypto.name}}</td>
-      <td>{{crypto.precio}}</td>
-      <td>{{crypto.marketcap}}</td>
-    </tr>
-  </tbody>
-</table>
-
-  </div>
+  <!-- Mensaje de no coincidencias -->
+  <p *ngIf="mostrarMensajeNoCoincidencias">No se encontraron coincidencias.</p>
 </div>
+
+
