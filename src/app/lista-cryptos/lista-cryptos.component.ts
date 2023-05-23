@@ -56,11 +56,15 @@ export class ListacryptosComponent implements OnInit {
     {
         "id": 6,
         "name": "Binance Coin",
-        "precio": 350,
+        "precio": 0.9999,
         "logo_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Binance-coin-bnb-logo.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 80000000
+        "industria": "Stablecoin",
+        "plataforma": "Binance Chain",
+        "marketcap": 5461071902
+
+
+
+
     },
     {
         "id": 7,
@@ -92,11 +96,13 @@ export class ListacryptosComponent implements OnInit {
     {
         "id": 10,
         "name": "Dogecoin",
-        "precio": 0.3,
+        "precio": 0.07274,
         "logo_url": "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
-        "industria": "Bitcoin",
-        "plataforma": "Bitcoin",
-        "marketcap": 20000000
+        "industria": "Meme",
+        "plataforma": "BNB Chain",
+        "marketcap":10144381700
+
+
     }
 ]
 
